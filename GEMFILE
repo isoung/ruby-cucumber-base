@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+# Specifying required gems
+gem 'cucumber'
+gem 'rake'
+gem 'rspec-expectations'
+gem 'rubocop'
