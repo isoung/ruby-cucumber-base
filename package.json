@@ -1,0 +1,25 @@
+{
+  "name": "ruby-cucumber-base",
+  "version": "1.0.0",
+  "description": "Ruby cucumber automation base project",
+  "main": "build.js",
+  "scripts": {
+    "test": "mocha --reporter list ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoung/ruby-cucumber-base.git"
+  },
+  "author": "Isaiah Soung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isoung/ruby-cucumber-base/issues"
+  },
+  "homepage": "https://github.com/isoung/ruby-cucumber-base#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "fs-extra": "^2.1.2",
+    "mocha": "^3.2.0",
+    "mock-fs": "^4.2.0"
+  }
+}
