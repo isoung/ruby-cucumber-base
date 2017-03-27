@@ -3,5 +3,5 @@ sudo: false
 node_js:
   - 6.9.4
 script:
-  - npm run install
+  - npm install
   - npm run test
