@@ -27,11 +27,11 @@ exports.webTestingBase = function() {
 
 // Build steps. Either build or remove unwanted options.
 if (args['capybara/selenium']) {
-  capybara();
+  this.capybara();
 }
 
 if (args['web-testing-base']) {
-  webTestingBase();
+  this.webTestingBase();
 }
 
 // Clean up all files that are not needed by the framework.
