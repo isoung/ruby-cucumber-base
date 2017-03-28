@@ -4,5 +4,5 @@ Given(/^"([^"]*)" and "([^"]*)"$/) do |num1, num2|
 end
 
 Then(/^the sum should be "([^"]*)"$/) do |sum|
-  expect((@num1 + @num2) == sum.to_i)
+  expect((@num1 + @num2) == sum.to_i).to(eq(true))
 end

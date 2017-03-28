@@ -6,3 +6,4 @@ Feature: Example feature file
      Scenarios: Example Scenario
      | num1 | num2 | sum |
      | 1    | 2    | 3   |
+     | 8    | 9    | 17  |

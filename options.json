@@ -1,5 +1,11 @@
 {
   "options": [
-    "capybara"
+    {
+      "name": "capybara/selenium"
+    },
+    {
+      "name": "web-testing-base",
+      "requires": "capybara/selenium"
+    }
   ]
 }
